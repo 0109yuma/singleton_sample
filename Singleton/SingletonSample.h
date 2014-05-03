@@ -10,4 +10,6 @@
 
 @interface SingletonSample : NSObject
 
++(SingletonSample*)sharedManager;
+
 @end
