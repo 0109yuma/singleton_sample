@@ -19,6 +19,7 @@
 		3B110B80191536E1008FCCC6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B110B68191536E1008FCCC6 /* UIKit.framework */; };
 		3B110B88191536E1008FCCC6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B110B86191536E1008FCCC6 /* InfoPlist.strings */; };
 		3B110B8A191536E1008FCCC6 /* SingletonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B110B89191536E1008FCCC6 /* SingletonTests.m */; };
+		3B110B9519153707008FCCC6 /* SingletonSample.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B110B9419153707008FCCC6 /* SingletonSample.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		3B110B85191536E1008FCCC6 /* SingletonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SingletonTests-Info.plist"; sourceTree = "<group>"; };
 		3B110B87191536E1008FCCC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3B110B89191536E1008FCCC6 /* SingletonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingletonTests.m; sourceTree = "<group>"; };
+		3B110B9319153707008FCCC6 /* SingletonSample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonSample.h; sourceTree = "<group>"; };
+		3B110B9419153707008FCCC6 /* SingletonSample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingletonSample.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				3B110B73191536E1008FCCC6 /* AppDelegate.h */,
 				3B110B74191536E1008FCCC6 /* AppDelegate.m */,
+				3B110B9319153707008FCCC6 /* SingletonSample.h */,
+				3B110B9419153707008FCCC6 /* SingletonSample.m */,
 				3B110B76191536E1008FCCC6 /* Images.xcassets */,
 				3B110B6B191536E1008FCCC6 /* Supporting Files */,
 			);
@@ -240,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B110B75191536E1008FCCC6 /* AppDelegate.m in Sources */,
+				3B110B9519153707008FCCC6 /* SingletonSample.m in Sources */,
 				3B110B71191536E1008FCCC6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
