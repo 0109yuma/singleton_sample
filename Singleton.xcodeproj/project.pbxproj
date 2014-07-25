@@ -20,6 +20,7 @@
 		3B110B88191536E1008FCCC6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B110B86191536E1008FCCC6 /* InfoPlist.strings */; };
 		3B110B8A191536E1008FCCC6 /* SingletonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B110B89191536E1008FCCC6 /* SingletonTests.m */; };
 		3B110B9519153707008FCCC6 /* SingletonSample.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B110B9419153707008FCCC6 /* SingletonSample.m */; };
+		3B78F3B8198207C40060BA05 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B78F3B7198207C40060BA05 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		3B110B89191536E1008FCCC6 /* SingletonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingletonTests.m; sourceTree = "<group>"; };
 		3B110B9319153707008FCCC6 /* SingletonSample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonSample.h; sourceTree = "<group>"; };
 		3B110B9419153707008FCCC6 /* SingletonSample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingletonSample.m; sourceTree = "<group>"; };
+		3B78F3B6198207C40060BA05 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3B78F3B7198207C40060BA05 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 				3B110B74191536E1008FCCC6 /* AppDelegate.m */,
 				3B110B9319153707008FCCC6 /* SingletonSample.h */,
 				3B110B9419153707008FCCC6 /* SingletonSample.m */,
+				3B78F3B6198207C40060BA05 /* ViewController.h */,
+				3B78F3B7198207C40060BA05 /* ViewController.m */,
 				3B110B76191536E1008FCCC6 /* Images.xcassets */,
 				3B110B6B191536E1008FCCC6 /* Supporting Files */,
 			);
@@ -246,6 +251,7 @@
 			files = (
 				3B110B75191536E1008FCCC6 /* AppDelegate.m in Sources */,
 				3B110B9519153707008FCCC6 /* SingletonSample.m in Sources */,
+				3B78F3B8198207C40060BA05 /* ViewController.m in Sources */,
 				3B110B71191536E1008FCCC6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,6 +449,7 @@
 				3B110B8F191536E1008FCCC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B110B90191536E1008FCCC6 /* Build configuration list for PBXNativeTarget "SingletonTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +458,7 @@
 				3B110B92191536E1008FCCC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

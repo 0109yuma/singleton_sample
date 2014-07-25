@@ -42,4 +42,9 @@ static SingletonSample *sharedObj = nil;
     return nil;
 }
 
+-(void)sampleMethod
+{
+    NSLog(@"SingletomSample::sampleMethod");
+}
+
 @end

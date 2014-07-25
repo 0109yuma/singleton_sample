@@ -12,4 +12,6 @@
 
 +(SingletonSample*)sharedManager;
 
+-(void)sampleMethod;
+
 @end
